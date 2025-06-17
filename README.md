@@ -8,7 +8,7 @@ Uncovering the Drivers of High-Paying Remote Jobs: A Principal Component Analysi
 -Data Source
 -Data Description
 -Tools and Method Used
--
+-Key Insight
 ---
 
 #🎛Overview
@@ -107,6 +107,8 @@ Experience Level, Job Title, and Remote Flexibility also contribute significantl
 PCA reduced the dataset to 25 components, explaining 95% of the total variance — allowing efficient visualization and clustering.
 
 
+
+ 
 
 
 
