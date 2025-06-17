@@ -151,13 +151,55 @@ Job_Title_Product Manager	-0.000387	0.09158
 
 ---
 
-#💡 Key Insights
+🔍 Key Findings:
+Annual Salary has the strongest correlation with PC1 (0.99), indicating it dominates the first principal component and is the most influential factor in differentiating job types.
 
-The first principal component (PC1) is highly influenced by Annual Salary, suggesting it captures overall pay level.
+Experience Level:
 
-Experience Level, Job Title, and Remote Flexibility also contribute significantly.
+Experience_Level_Senior: Correlates positively with high salaries (+0.60 on PC1).
 
-PCA reduced the dataset to 25 components, explaining 95% of the total variance — allowing efficient visualization and clustering.
+Experience_Level_Entry: Lower correlation (+0.05), suggesting entry-level roles contribute less to high earnings.
+
+Job Titles:
+
+Job_Title_Data Scientist: +0.039 on PC1 – moderately positive impact.
+
+Job_Title_Software Engineer: +0.0056 – weak influence, but present in high-paying roles.
+
+Job_Title_Product Manager: -0.0003 – minimal impact in PC1.
+
+Employment Type:
+
+Employment_Type_Full-time: -0.046 on PC1 – common among high earners but with a slightly negative loading due to standardization across dataset.
+
+Employment_Type_Contract: +0.031 – indicates some contracted roles also earn well.
+
+Company Influence:
+
+Company_Adobe: +0.009 on PC1 – mild positive correlation.
+
+Company_Meta: -0.028 – moderately negative, possibly reflecting salary distribution skew or job structure.
+
+Company_Google: -0.0176 – neutral to slightly negative.
+
+Company_Microsoft: -0.0148 – also slightly negative but still appears in PC1.
+
+Remote Flexibility:
+
+Remote_Flexibility_Onsite: +0.039 on PC1 and -0.268 on PC2 – indicates jobs with less flexibility cluster separately in lower components, hinting that remote/hybrid roles align more with compensation and job clustering.
+
+📌 Final Insight:
+High-paying remote jobs are primarily defined by:
+
+High experience levels
+
+Specific job roles (especially in data science and software)
+
+Affiliation with certain top-tier tech companies
+
+Greater salary variance explained by job-specific attributes rather than remote flexibility alone
+
+PCA reveals that salary patterns are deeply tied to role, company, and experience, confirming that not all remote jobs are created equal — and that context matters significantly when aiming for higher compensation.
 
 
 
